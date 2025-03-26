@@ -1,0 +1,16 @@
+[package]
+name = "onetimeaccessNFTs"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0xf423780a95af9ef8326a39ac45509294b9a99448f6e000aec0900b905f0f0746"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
